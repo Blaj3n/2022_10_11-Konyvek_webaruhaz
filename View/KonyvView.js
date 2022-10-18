@@ -1,5 +1,7 @@
 class KonyvView {
+    #elem
     constructor(elem, szuloElem) {
+        this.#elem = elem
         // console.log("KonyvView");
         console.log(elem);
         //egy táblázat sort jelenítsünk meg
@@ -19,6 +21,7 @@ class KonyvView {
         //módosít gomb eseménykezelő
         this.modositElem.on("click", () =>{
             console.log("Módosít a View-ban")
+            this.kattintasTrigger()
         })
     }
     kattintasTrigger(){

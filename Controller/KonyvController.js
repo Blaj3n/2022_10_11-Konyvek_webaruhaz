@@ -6,6 +6,11 @@ class KonyvController {
         
         const konyvmodel = new KonyvModel();
         konyvmodel.adatBe("../adat.json", this.konyvAdatok);
+
+        $(window).on("modosit", (event)=>{
+            console.log("controllerben módosít",event.detail)
+            konyvmodel.adatModosit(event.detail)
+        })
     }
 
     konyvAdatok(tomb) {
