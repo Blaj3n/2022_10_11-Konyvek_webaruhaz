@@ -8,6 +8,8 @@ class KonyvView {
         <td>${elem.cim}</td>
         <td>${elem.szerzo}</td>
         <td>${elem.ar}</td>
+        <td><button>Módosít</button></td>
+        <td><button>Töröl</button></td>
         </tr>`);
     }
 }
