@@ -2,7 +2,7 @@ class KonyvModel {
   #konyvekTomb = [];
 
   constructor() {
-    console.log("KonyvModel");
+    //console.log("KonyvModel");
   }
   adatModosit(adat) {
     console.log("modellben módosít", adat);
