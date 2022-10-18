@@ -1,5 +1,4 @@
 import KonyvekView from "../View/KonyvekView.js";
-import KonyvModel from "../Model/KonyvModel.js";
 
 class KonyvController {
     constructor() {
