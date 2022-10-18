@@ -11,6 +11,10 @@ class KonyvController {
             console.log("controllerben módosít",event.detail)
             konyvmodel.adatModosit(event.detail)
         })
+        $(window).on("torol", (event)=>{
+            console.log("controllerben töröl",event.detail)
+            konyvmodel.adatTorol(event.detail)
+        })
     }
 
     konyvAdatok(tomb) {
