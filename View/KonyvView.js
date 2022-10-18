@@ -4,10 +4,10 @@ class KonyvView {
         console.log(elem);
         //egy táblázat sort jelenítsünk meg
         szuloElem.append(`<tr>
-        <th>${elem.id}</th>
-        <th>${elem.cim}</th>
-        <th>${elem.szerzo}</th>
-        <th>${elem.ar}</th>
+        <td>${elem.id}</td>
+        <td>${elem.cim}</td>
+        <td>${elem.szerzo}</td>
+        <td>${elem.ar}</td>
         </tr>`);
     }
 }
