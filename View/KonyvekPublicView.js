@@ -1,13 +1,13 @@
-import KonyvPublicView from "./KonyvekPublicView.js";
+import KonyvPublicView from "./KonyvPublicView.js";
 
 class KonyvekPublicView {
   constructor(tomb, szuloElem) {
-    szuloElem.append(`<div class="konyvek">
+    szuloElem.html(`<div class="konyvek">
 
             </div>`);
     this.divElem = szuloElem.children("div:last-child");
-    tomb.forEach(konyvek => {
-      const konyvem = new KonyvPublicView(konyvek, this.divElem);
+    tomb.forEach(konyv => {
+      const konyvem = new KonyvPublicView(konyv, this.divElem);
     });
   }
 }

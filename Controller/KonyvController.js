@@ -1,6 +1,6 @@
 import KonyvekView from "../View/KonyvekView.js";
 import KonyvModel from "../Model/KonyvModel.js";
-import KonyvekPublicView from "../View/KonyvPublicView.js";
+import KonyvekPublicView from "../View/KonyvekPublicView.js";
 
 class KonyvController {
   constructor() {
